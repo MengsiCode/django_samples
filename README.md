@@ -4,7 +4,7 @@ Provides some boilerplate code for commons operations in Django
 If like me you always use django, you may that a lot of tasks are just repetitive.
 This extension will solve the issue for you with a simple !cmd + TAB and your up and running with a full sample.
 
-\!\[Django samples\]\(_test.gif\)
+![Alt text](_test.gif?raw=true "Title")
 
 ## Shortcuts/Commands
 
