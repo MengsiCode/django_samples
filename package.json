@@ -2,7 +2,7 @@
     "name": "vscode-django-boilerplate",
     "displayName": "vscode-django-boilerplate",
     "description": "Provides some samples code to code fast using django",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "publisher": "MengsiCode",
     "icon": "icon.png",
     "repository": {
