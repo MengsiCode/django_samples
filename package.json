@@ -1,6 +1,6 @@
 {
-    "name": "vscode-django-boilerplate",
-    "displayName": "vscode-django-boilerplate",
+    "name": "Django Samples",
+    "displayName": "Django Samples",
     "description": "Provides some samples code to code fast using django",
     "version": "1.5.0",
     "publisher": "MengsiCode",
