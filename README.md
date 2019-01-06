@@ -1,1 +1,1 @@
-# dajngo_samples
+# Django Samples
