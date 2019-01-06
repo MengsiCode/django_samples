@@ -69,10 +69,11 @@
         "description":"Provides a Function Based View sample.",
         "body":[
             "def ${function}(request):",
-            "   template_name = '${template_name.html}'",
+            "   template_name = '${template}'",
             "   context = {}",
             "   if request.method == 'GET' :",
             "       $1",
+            "       pass",
             "   if request.method == 'POST' :",
             "       $2",
             "   return render(request,template_name,context)",
@@ -152,7 +153,7 @@
         "description":"Provides an easy to use email function",
         "body":[
             "'''",
-            "get_email_sent(request,receiver=[user.email],subject='',ontext = {},template='emails/progress.html') ",
+            "get_email_sent(request,receiver=[],subject='',context = {},template='emails/progress.html') ",
             "",
             "'''",
             "from django.conf import settings",
@@ -170,6 +171,7 @@
             "   email = EmailMultiAlternatives(subject, text_content, sender, receiver)",
             "   email.attach_alternative(html_content, \"text/html\")",
             "   email.send(fail_silently=True)",
+            "   return True",
             ""
         ]
     },
