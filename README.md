@@ -1,5 +1,13 @@
 # Django Samples
 
+Provides some boilerplate code for commons operations in Django
+If like me you always use django, you may that a lot of tasks are just repetitive.
+This extension will solve the issue for you with a simple !cmd + TAB and your up and running with a full sample.
+
+\!\[Django samples\]\(_test.gif\)
+
+## Shortcuts/Commands
+
 | Command     | Function           | 
 | ------------- |:-------------:| 
 | !fbv | Creates a function based view |
@@ -16,5 +24,30 @@
 | !f_field | Provides a ForeignKeyField sample |
 | !c_field | Provides a Charfield sample |
 | !m2m_field | Provides a ManyToMany field sample |
+
+
+
+
+## Requirements
+
+Note that xhtml2pdf.pisa is used to render pdf from html, you may want to install it for this to work.
+
+
+## Known Issues
+
+Calling out known issues can help limit users opening duplicate issues against your extension.
+
+## Release Notes
+
+This is my first extension, hope you find it useful.
+
+### 1.2.0
+
+Initial release of Django Samples
+
+
+
+
+**Enjoy!**
 
 
